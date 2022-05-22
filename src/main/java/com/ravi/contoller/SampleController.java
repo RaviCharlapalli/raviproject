@@ -11,25 +11,25 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
-Testing comment
+
+// Testing comment
 
 
-@RestController
-@RequestMapping("/")
-public class SampleController {
-    @RequestMapping(value = "/getResponse", method = RequestMethod.GET)
-    @ResponseBody
-    public String printAddress(HttpServletRequest request, HttpServletResponse response, HttpSession httpSession)
-            throws JSONException {
-        int a = 20;
-System.out.println("Inside printAddress method");
-        JSONObject js = new JSONObject();
-        js.put("Name", "Ravi DevOps training");
-        js.put(" Hyderabad ");
+// @RestController
+// @RequestMapping("/")
+// public class SampleController {
+    // @RequestMapping(value = "/getResponse", method = RequestMethod.GET)
+    // @ResponseBody
+    // public String printAddress(HttpServletRequest request, HttpServletResponse response, HttpSession httpSession)
+            // throws JSONException {
+        // int a = 20;
+// System.out.println("Inside printAddress method");
+        // JSONObject js = new JSONObject();
+        // js.put("Name", "Ravi DevOps training");
+        // js.put(" Hyderabad ");
 
-        return js.toString();
+        // return js.toString();
 
-    }
-}
-/**
+    // }
+// }
+
