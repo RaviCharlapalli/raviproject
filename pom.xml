@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion> 
-  <groupId>com.kctechnologies</groupId>
+  <groupId>com.ravi</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
@@ -80,13 +80,13 @@
    <distributionManagement>
         <repository>
           <id>nexus</id>
-          <name>KC Tech Releases Nexus Repository</name>
-          <url>http://52.91.88.226:8081/repository/kctech-release/</url>
+          <name>Ravi Nexus Repository</name>
+          <url>http://ip of release/</url>
         </repository>
         <snapshotRepository>
           <id>nexus</id>
-          <name>KC Tech Snapshot Nexus Repository </name>
-           <url>http://52.91.88.226:8081/repository/kctech-snapshot/</url>
+          <name>RaviNexus Repository </name>
+           <url>http://ipof snapshot/</url>
         </snapshotRepository>
    </distributionManagement>
 	
@@ -97,8 +97,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <sonar.host.url>http://34.238.239.79:9000/</sonar.host.url>
-				<sonar-maven-plugin.version>3.3.0.603</sonar-maven-plugin.version>
+                <sonar.host.url>http://sonarip:9000/</sonar.host.url>
+               <sonar-maven-plugin.version>3.3.0.603</sonar-maven-plugin.version>
             </properties>
             <build>
               <plugins>
