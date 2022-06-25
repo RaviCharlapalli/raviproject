@@ -5,7 +5,7 @@
   <groupId>com.ravi</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
-  <version>4.0</version>
+  <version>5.0</version>
   <name>Maven Web Project</name>
   <description>Maven Web Project for Java</description>
 	
